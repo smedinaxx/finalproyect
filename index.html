@@ -1,128 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
-<body class="bg-black-600">
-    <header class="flex flex-col bg-black 800 text-white items-center justify-center p-2 pb-2 xl:px-2 xl:py-2 mb-8">
-        <a href="#">
-            <img class="w-64 h-auto" src="IMAGEN/logosjmp.jpeg" alt="pcpallogo">
-        </a>
-        <div class="flex flex-col items-center justify-center relative z-10 text-center">
-            <div class="grid grid-cols-1 xl:grid-cols-5 gap-9 px-4 py-4  ">
-                <a
-                    class="bg-white text-gray-800 py-2 px-4 rounded-full font-bold hover:bg-gray-300 transition duration-300">navMENU</a>
-                <a
-                    class="bg-white text-gray-800 py-2 px-4 rounded-full font-bold hover:bg-gray-300 transition duration-300">navMENU</a>
-                <a
-                    class="bg-white text-gray-800 py-2 px-4 rounded-full font-bold hover:bg-gray-300 transition duration-300">navMENU</a>
-                <a
-                    class="bg-white text-gray-800 py-2 px-4 rounded-full font-bold hover:bg-gray-300 transition duration-300">navMENU</a>
-                <a
-                    class="bg-white text-gray-800 py-2 px-4 rounded-full font-bold hover:bg-gray-300 transition duration-300">navMENU</a>
-            </div>
-    </header>
+<body class="bg-neutral-800">
+    <div class="grid grid-cols-1 xl:grid-cols-4 gap-none px-none py-none border-2">
 
-        <main>
-            <div class="container mx-auto">
-                <div class="grid grid-cols-1 xl:grid-cols-4 gap-9 px-3 py-2">
-                    <a href="#"><img class="w-20 h-auto" src="REDES/TWITCH.png" alt="TWITCH"></a>
-                    <a href="#"><img class="w-20 h-auto" src="REDES/GITHUB.png" alt="GITHUB"></a>
-                    <a href="#"><img class="w-20 h-auto" src="REDES/TIKTOK.png" alt="TIKTOK"></a>
-                    <a href="#"><img class="w-20 h-auto" src="REDES/FACEBOOK.png" alt="FACEBOOK"></a>
-                </div>
-            </div>
-            
-            <div class="h-screen w-screen flex items-center justify-center">
-                <img class="object-cover h-full w-full" src="IMAGEN/REBIRTH.jpg" alt="Descripción de la imagen">
-            </div>
+        <!-- logo -->
+        <div class="w-auto h-14 bg-black col-span-4 flex item-center justify-center pt-2">
+            <a href="#"><img src="IMAGEN/logosjmp.jpeg" alt="logo" class="w-auto h-10"></a>
+        </div>
 
-            <div class="grid grid-cols-1 xl:grid-cols-4 gap-5 px-3 py-3  ">
+        <!-- menu principal -->
+        <div
+            class="w-auto h-auto bg-neutral-800 col-span-4 flex item-center justify-center space-x-10 p-2 leading-4 text-center border-b-2 border-lime-500 text-sm">
+            <a href="#" class="text-neutral-400 hover:text-white">Apex Legends</a>
+            <a href="#" class="text-neutral-400 hover:text-white">Elden Ring</a>
+            <a href="#" class="text-neutral-400 hover:text-white">Carreras</a>
+            <a href="#" class="text-neutral-400 hover:text-white">Store proximamente</a>
+        </div>
+        
+        <!-- wallpaper -->
+        <div class="w-auto h-90 col-span-4 flex mt-3 mb-2 justify-center filter brightness-90">
+            <img src="IMAGEN/WZWALL.png" alt="fondo" class="w-full h-full object-cover">
+        </div>
+        <!-- titulo de clases -->
+        <div class="w-auto h-auto col-span-4 flex justify-center text-neutral-400 mb-2 text-sm">
+            <p>Loadout & Metas</p>
+        </div>
 
-                <div class="w-32 h-24 bg-gray-300 rounded-xl">
-                    <div class="flex flex-col rounded-2xl w-80 bg-[#e4e4e4] shadow-xl">
-                        <figure class="flex justify-center items-center rounded-2xl">
-                            <img src="IMAGEN/HRM9.jpg" alt="Card Preview" class="rounded-t-2xl">
-                        </figure>
-                        <div class="flex flex-col p-8">
-                            <div class="text-xl font-bold uppercase text-center text-[#000000] pb-6">HRM9</div>
-                            <div class=" text-base  text-center text-[#000000]">Levsdserage a graphical editor to create
-                                beautiful web components.</div>
-                            <div class="flex justify-end pt-6">
-                                <button
-                                    class="bg-[#038703] text-[#ffffff]   text-base  p-3 rounded-lg hover:bg-purple-800 active:scale-95 transition-transform transform">Videoclip
-                                    here!</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <!-- inicio de cards -->
+        <div class="w-full h-full flex justify-between item-center col-span-4 px-6 flex-col md-flex-row"></div>
+    </div>
 
-                <div class="w-32 h-24 bg-gray-300 rounded-xl">
-                    <div class="flex flex-col rounded-2xl w-80 bg-[#e4e4e4] shadow-xl">
-                        <figure class="flex justify-center items-center rounded-2xl">
-                            <img src="IMAGEN/BRUEN.jpg" alt="Card Preview" class="rounded-t-2xl">
-                        </figure>
-                        <div class="flex flex-col p-8">
-                            <div class="text-xl font-bold uppercase text-center text-[#000000] pb-6">BRUEN</div>
-                            <div class=" text-base  text-center text-[#000000]">Levsdserage a graphical editor to create
-                                beautiful web components.</div>
-                            <div class="flex justify-end pt-6">
-                                <button
-                                    class="bg-[#038703] text-[#ffffff]   text-base  p-3 rounded-lg hover:bg-purple-800 active:scale-95 transition-transform transform">Videoclip
-                                    here!</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <!-- tratando de hacer cards -->
+<div class="flex justify-center">
+    <div class="grid grid-cols-1 xl:grid-cols-4 gap-9 px-4 py-4 border border-2">
+        <div class="w-32 h-24 bg-gray-300 rounded-xl text-sm">cards Loadout varios intentos fallidos</div>
+        <div class="w-32 h-24 bg-gray-300 rounded-xl text-sm">cards Loadout varios intentos fallidos</div>
+        <div class="w-32 h-24 bg-gray-300 rounded-xl text-sm">cards Loadout varios intentos fallidos</div>
+        <div class="w-32 h-24 bg-gray-300 rounded-xl text-sm">cards Loadout varios intentos fallidos</div>
+    </div>
+</div>
 
-                <div class="w-32 h-24 bg-gray-300 rounded-xl">
-                    <div class="flex flex-col rounded-2xl w-80 bg-[#e4e4e4] shadow-xl">
-                        <figure class="flex justify-center items-center rounded-2xl">
-                            <img src="IMAGEN/RAM7.JPG" alt="Card Preview" class="rounded-t-2xl">
-                        </figure>
-                        <div class="flex flex-col p-8">
-                            <div class="text-xl font-bold uppercase text-center text-[#000000] pb-6">RAM 7</div>
-                            <div class=" text-base  text-center text-[#000000]">Levsdserage a graphical editor to create
-                                beautiful web components.</div>
-                            <div class="flex justify-end pt-6">
-                                <button
-                                    class="bg-[#038703] text-[#ffffff]   text-base  p-3 rounded-lg hover:bg-purple-800 active:scale-95 transition-transform transform">Videoclip
-                                    here!</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+</body>
 
-                <div class="w-32 h-24 bg-gray-300 rounded-xl">
-                    <div class="flex flex-col rounded-2xl w-80 bg-[#e4e4e4] shadow-xl">
-                        <figure class="flex justify-center items-center rounded-2xl">
-                            <img src="IMAGEN/RAM9.jpg" alt="Card Preview" class="rounded-t-2xl">
-                        </figure>
-                        <div class="flex flex-col p-8">
-                            <div class="text-xl font-bold uppercase text-center text-[#000000] pb-6">RAM 9</div>
-                            <div class=" text-base  text-center text-[#000000]">Levsdserage a graphical editor to create
-                                beautiful web components.</div>
-                            <div class="flex justify-end pt-6">
-                                <button
-                                    class="bg-[#038703] text-[#ffffff]   text-base  p-3 rounded-lg hover:bg-purple-800 active:scale-95 transition-transform transform">Videoclip
-                                    here!</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-        </main>
-
-        <footer>
-
-        </footer>
-
-    </body>
+<footer>
+    <div class="w-full bg-black p-2 text-center text-neutral-200 text-sm pt-6">
+        © 2024 All rights reserved:
+        <a href="#" class="font-bold text-lime-600">smedinaxx</a>
+    </div>
+</footer>
 
 </html>
